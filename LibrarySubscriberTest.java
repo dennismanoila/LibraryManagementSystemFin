@@ -27,6 +27,6 @@ class LibrarySubscriberTest {
         Library library = new Library("City Library");
         LibrarySubscriber subscriber = new LibrarySubscriber(library, "Jane", "Doe");
 
-        subscriber.borrowItem(); // Outputs borrowing message, but no exceptions or logic here
+        subscriber.borrowItem(); 
     }
 }
